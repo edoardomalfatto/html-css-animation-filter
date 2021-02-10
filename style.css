@@ -147,5 +147,20 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-
 }
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: movetopwhite 2s linear;
+}
+@keyframes movetopwhite {
+  50% {left:69%;}
+  100% {left:10%;}
+  }
+
+  .ex-12-button:hover .ex-12-bottom-white {
+    animation: movebottomwhite 2s linear;
+  }
+  @keyframes movebottomwhite {
+    50% {right:69%;}
+    100% {right:20%;}
+    }
